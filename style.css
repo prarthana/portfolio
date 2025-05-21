@@ -163,7 +163,7 @@ footer{
   text-align: right;
   font-size:.8rem;
   background-color: #EDEDED;
-  color:  #000000;
+  color:  #9b9b9b;
 }
 
 /*home, about styles*/
@@ -287,11 +287,11 @@ footer{
 }
 
 
-/* Extra small devices (phones) */
+/* Extra small devices (phones) ----------------------------------------------*/
 @media (max-width: 575.98px) {
 
   body{
-    font-size: .8rem;
+  
     line-height: 1.6;
   }
 
@@ -317,60 +317,76 @@ main{
 
   .profile-photo {
     margin: auto;
-    width: 10rem;
-    height: 10rem;
+    width: 12rem;
+    height: 12rem;
   }
 
     .profile-photo.about {
     margin: auto;
-    width: 7rem;
-    height: 7rem;
+    margin-bottom: 1rem;
+    width: 10rem;
+    height: 10rem;
   }
 
   h1 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     text-align: center;
   }
 
 
   /*top navigation*/
+  nav .section{
+    flex-direction:column;
+  }
+
+nav{
+  margin: 0;
+  padding: 0;
+  height: 6rem;  
+}
+nav ul{ 
+  justify-content: flex-start;
+}
+nav ul li{
+  margin: 0 1.6rem 0 0;
+}
 nav ul li a{
-  font-size: .75rem; 
+  font-size: .9rem; 
+  margin:.2rem 0 0 0;
 }
 
 nav ul li.linkedin a img{
-  margin: .8rem 0 0 0;
-  width: 18px;
-  height: 18px;
+  margin: 0 0 0 0;
+  width: 20px;
+  height: 20px;
   display: block;
   border-radius: 0;
+}
+nav ul li.linkedin a{
+  margin: 0 0 0 0;
 }
 nav ul li.linkedin a:hover, nav ul li.linkedin a:active, nav ul li.linkedin a:visited{
   content: url(images/logo_linkedin_hover.png);
   background: none;
-  margin: 2rem 0 0 0;
-   width: 18px;
-  height: 18px;
+  margin: 0 0 0 0;
+   width: 20px;
+  height: 20px;
 }
 
-  nav ul li {
-    margin: 0.4rem 0;
-  }
+
 
   .logo{
-  margin: 2.2rem 0 0 0;  
-  font:bold .9rem 'Merriweather', serif;
+  margin:1rem 0 0.5rem 0.4rem;  
+  font:bold 1.2rem 'Merriweather', serif;
 }
 
-.entry{
-  margin: 0 0 2rem 0;
-}
+
 
 .title, .company-name{
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 .date{
-  font-size: .7rem;
+  font-size: .8rem;
 }
   .gallery {
     flex-direction:column;
@@ -406,7 +422,7 @@ nav ul li.linkedin a:hover, nav ul li.linkedin a:active, nav ul li.linkedin a:vi
   }
 }
 
-/* Small to medium devices (tablets) */
+/* Small to medium devices (tablets)----------------------------------------- */
 @media (min-width: 576px) and (max-width: 991.98px) {
  body{
     padding-right: 0;
@@ -446,8 +462,8 @@ main{
   }
 
   nav{
-  padding-top: .5rem;
-  height: 5rem;      
+  padding-top: 1rem;
+  height: 5.5rem;      
 }
 
   /*top navigation*/
@@ -471,12 +487,12 @@ nav ul li.linkedin a:hover, nav ul li.linkedin a:active, nav ul li.linkedin a:vi
 }
 
   nav ul li {
-    margin: 0.4rem 0.7rem .4rem 0;
+    margin: 0.4rem 1rem .4rem 0;
   }
 
   .logo{
   margin: 2.1rem 0 0 0;  
-  font:bold 1.2rem 'Merriweather', serif;
+  font:bold 1.4rem 'Merriweather', serif;
 }
 
 .entry{
