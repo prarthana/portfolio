@@ -26,9 +26,14 @@ h3 {
 }
 
 h1 {
-  margin: 2rem 0 2rem 0;
+  margin: 2rem 0 .5rem 0;
   font: bold 2.5rem "Merriweather", serif;
   color: #03759e;
+}
+h2 {
+  margin: 0 0 2rem 0;
+  font: bold 1.3rem "Montserrat", serif;
+  color: #666666;
 }
 
 main {
@@ -250,6 +255,7 @@ footer {
 .lightbox-content img {
   margin: 2rem auto;
   border: 10px solid #ffffff;
+  
 }
 
 .lightbox-img {
@@ -257,12 +263,14 @@ footer {
   max-width: 100vw;
   display: block;
   max-height: 90%;
+
 }
 
 .wrapper {
   max-height: 100vh;
   width: 100vw;
   overflow: auto;
+  
 }
 
 .nav-btn {
