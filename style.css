@@ -345,6 +345,11 @@ footer {
     text-align: center;
   }
 
+   h2 {
+    font-size: 1rem;
+    text-align: center;
+  }
+
   /*top navigation*/
   nav .section {
     flex-direction: column;
@@ -472,7 +477,8 @@ footer {
     text-align: center;
   }
   
-  h2{
+  h2 {
+    font-size: 1.2rem;
     text-align: center;
   }
 
