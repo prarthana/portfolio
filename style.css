@@ -471,6 +471,10 @@ footer {
     font-size: 2rem;
     text-align: center;
   }
+  
+  h2{
+    text-align: center;
+  }
 
   nav {
     padding-top: 1rem;
